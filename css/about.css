@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "karmtic";
+  src: url("../assets/ka1.ttf") format("truetype"); /* 字体文件的路径和格式 */
+}
+
+@font-face {
+  font-family: "Peepo Regular";
+  src: url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.eot");
+  src: url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.svg#Peepo Regular")
+      format("svg");
+}
+
+body {
+  width: 100vw;
+  height: 250vh;
+  background: linear-gradient(180deg, #ff00ff, #0000fe);
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  width: 108px;
+  height: 108px;
+}
+
+.home img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 1274px;
+  height: 1596px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content .title {
+  position: absolute;
+  top: 112px;
+  font-family: "karmtic";
+  color: #03ff7f;
+  font-size: 60px;
+}
+
+.content .p1 {
+  position: absolute;
+  top: 275px;
+  font-size: 30px;
+  width: 70%;
+  color: #fff;
+  font-family: "Peepo Regular";
+  padding-top: 20px;
+}
+
+.content .p2 {
+  position: absolute;
+  top: 555px;
+  font-size: 21px;
+  width: 70%;
+  color: #fff;
+  font-family: "Peepo Regular";
+}

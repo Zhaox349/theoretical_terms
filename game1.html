@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.min.css" />
+    <link rel="stylesheet" href="./css/game1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Kavoon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/dzk7zvj.css" />
+    <title>Game1</title>
+  </head>
+  <body>
+    <div id="bg"></div>
+
+    <div id="dialog" class="dialog">
+      <img id="top-arrow" src="./assets/arrow2.png" alt="" srcset="" />
+      <img id="right-arrow" src="./assets/arrow1.png" alt="" srcset="" />
+
+      <div id="ellipse" class="ellipse">
+        <input
+          id="inputValue"
+          type="text"
+          value=""
+          placeholder="1~10"
+          maxlength="2"
+          max="10"
+        />
+      </div>
+
+      <div class="east" id="east">
+        <div>EAST</div>
+      </div>
+      <div class="south" id="south">
+        <div>SOUTH</div>
+      </div>
+      <div class="west" id="west">
+        <div>WEST</div>
+      </div>
+      <div class="north" id="north">
+        <div>NORTH</div>
+      </div>
+    </div>
+
+    <script
+      src="https://unpkg.com/@free-side/audioworklet-polyfill/dist/audioworklet-polyfill.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+
+    <script src="./js/game1.js"></script>
+  </body>
+</html>

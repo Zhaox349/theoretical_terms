@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "karmtic";
+  src: url("../assets/ka1.ttf") format("truetype"); /* 字体文件的路径和格式 */
+}
+
+@font-face {
+  font-family: "Peepo Regular";
+  src: url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.eot");
+  src: url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b319832aeb7144538fd98da7e7246c04.svg#Peepo Regular")
+      format("svg");
+}
+
+body {
+  height: 140vh;
+  background: linear-gradient(
+    180deg,
+    #ff00ff -3.82%,
+
+    #0000fe 103.82%
+  );
+  overflow: scroll;
+}
+
+.title {
+  position: absolute;
+  height: 54px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 83px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  font-family: "karmtic";
+  color: #03ff7f;
+}
+.card {
+  position: absolute;
+  width: 554px;
+  min-height: 637px;
+  top: 199px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #343cff;
+  border: 6px solid #03ff7f;
+}
+
+.result {
+  font-family: "Peepo Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 121px;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  margin: 15px auto 0;
+}
+
+.result2 {
+  height: 238px;
+  display: block;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: 80px auto;
+  font-family: "Peepo Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: left;
+  word-break: break-word;
+  color: white;
+}
+
+.ellipse {
+  position: absolute;
+  bottom: -64.5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 279px;
+  height: 116px;
+}
+
+.ellipse img {
+  width: 100%;
+}

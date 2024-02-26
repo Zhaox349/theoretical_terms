@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "karmtic";
+  src: url("../assets/ka1.ttf") format("truetype"); /* 字体文件的路径和格式 */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #ff00ff -3.82%,
+
+    #0000fe 103.82%
+  );
+  overflow: hidden;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  position: absolute;
+  top: 32px;
+  right: 16px;
+  width: 238px;
+  height: 106px;
+}
+
+.title {
+  margin-top: 5%;
+  font-family: "karmtic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+
+  color: #03ff7f;
+}
+
+.options {
+  margin-top: 8%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.options .btn {
+  margin-bottom: 72px;
+}
