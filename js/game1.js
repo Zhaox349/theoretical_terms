@@ -34,7 +34,7 @@ let customFont;
 
 function preload() {
   game1Data = loadJSON(`json/game1.json`);
-  customFont = loadFont("../assets/LoRes9OTNarrow-Regular.ttf");
+  customFont = loadFont("assets/LoRes9OTNarrow-Regular.ttf");
 }
 
 function setup() {
